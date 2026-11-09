@@ -1,0 +1,7 @@
+<resources>
+ <style name="Theme.Health" parent="Theme.Material3.DayNight.NoActionBar">
+ <item name="fontFamily">@font/google_sans</item><item name="android:fontFamily">@font/google_sans</item>
+ <item name="colorPrimary">#36693E</item><item name="colorSecondary">#526350</item>
+ <item name="android:windowLightStatusBar">true</item>
+ </style>
+</resources>

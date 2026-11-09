@@ -1,0 +1,20 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+ android:id="@+id/widget_root"
+ android:orientation="vertical"
+ android:gravity="center_vertical"
+ android:padding="12dp"
+ android:layout_width="match_parent" android:layout_height="match_parent"
+ android:background="@drawable/widget_bg">
+ <TextView android:id="@+id/widget_steps"
+  android:layout_width="match_parent" android:layout_height="wrap_content"
+  android:textSize="26sp" android:textStyle="bold" android:textColor="#1B1B1F" android:text="0"/>
+ <ProgressBar style="@android:style/Widget.Material.ProgressBar.Horizontal"
+  android:id="@+id/widget_progress"
+  android:layout_width="match_parent" android:layout_height="6dp"
+  android:layout_marginTop="6dp" android:max="100" android:progress="0"
+  android:progressTint="#36693E" android:progressBackgroundTint="#DDE7DC"/>
+ <TextView android:id="@+id/widget_goal"
+  android:layout_width="match_parent" android:layout_height="wrap_content"
+  android:layout_marginTop="2dp"
+  android:textSize="12sp" android:textColor="#4B544E" android:text="из 8 000 шагов"/>
+</LinearLayout>

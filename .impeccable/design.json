@@ -1,0 +1,53 @@
+{
+  "platform": "android",
+  "mode": "operate",
+  "identity": "Material You 3",
+  "typography": {
+    "family": "Google Sans",
+    "source": "bundled Google Fonts OFL",
+    "bodySp": 16,
+    "headingSp": 32
+  },
+  "colors": {
+    "source": "Material DynamicColors",
+    "fallbackPrimary": "#36693E",
+    "nightSurface": "#000000"
+  },
+  "spacingDp": {
+    "page": 20,
+    "group": 12,
+    "section": 20
+  },
+  "controls": {
+    "minButtonHeightDp": 52,
+    "cardRadiusDp": 24,
+    "primaryButtonHeightDp": 64,
+    "pillRadiusDp": 28,
+    "minimumRowHeightDp": 68
+  },
+  "verification": {
+    "visual": "v1.1 approved on Pixel 6a emulator screenshots: Today (km, water percent), Sleep (rest word), Food (S/M/L dialog, day calorie card, record details), equal header circles",
+    "nativeDetector": "not applicable",
+    "code": "v1.1 assembled clean (versionCode 5 / 1.1.0); lint and instrumentation not rerun in this pass"
+  },
+  "version": "1.1",
+  "hierarchy": {
+    "main": "summary surfaces, compact meal lists, latest sessions, grouped history",
+    "secondary": "tonal pills and wrapping chips",
+    "primary": "one main action per inactive activity or sleep screen",
+    "settings": "profile, sleep settings, band setup, and food search use bottom sheets"
+  },
+  "navigation": {
+    "bottom": [
+      "Today",
+      "Activity",
+      "Sleep",
+      "Food"
+    ],
+    "header": [
+      "global history",
+      "profile"
+    ],
+    "profile": "scrollable sheet with Band and secondary tools"
+  }
+}

@@ -1,0 +1,10 @@
+plugins { id 'com.android.application'; id 'org.jetbrains.kotlin.android' }
+android {
+ namespace 'app.health'
+ compileSdk 36
+ buildToolsVersion '36.0.0'
+ defaultConfig { applicationId 'app.health'; minSdk 33; targetSdk 36; versionCode 5; versionName '1.1.0'; testInstrumentationRunner 'app.health.HistoryCheck' }
+ kotlinOptions { jvmTarget = "17" }
+ compileOptions { sourceCompatibility JavaVersion.VERSION_17; targetCompatibility JavaVersion.VERSION_17 }
+}
+dependencies { implementation 'org.osmdroid:osmdroid-android:6.1.20'; implementation 'com.google.android.material:material:1.13.0'; implementation 'androidx.appcompat:appcompat:1.7.1' }

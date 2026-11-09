@@ -1,0 +1,12 @@
+Health is licensed under GPL-3.0-or-later (see LICENSE).
+Bracelet protocol implementation (BandClient, ECDH_B163) is licensed under
+AGPL-3.0-or-later and is based on Gadgetbridge:
+https://github.com/Freeyourgadget/Gadgetbridge
+https://codeberg.org/Freeyourgadget/Gadgetbridge
+Copyright (C) 2021-2024 Andreas Shimokawa, José Rebelo and Gadgetbridge contributors.
+ECDH_B163 retains its original copyright and license header.
+Google Sans is bundled under the SIL Open Font License; see app/src/main/assets/GoogleSans-OFL.txt.
+Material Components and AndroidX are Apache-2.0 licensed dependencies.
+Food and brand names identify user-selectable diary entries, without affiliation or verified regional menu availability. No nutritional database or medical classification is included.
+osmdroid 6.1.20: Apache License 2.0, https://github.com/osmdroid/osmdroid
+OpenStreetMap map data: © OpenStreetMap contributors, https://www.openstreetmap.org/copyright
